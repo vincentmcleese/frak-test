@@ -12,11 +12,6 @@ export default function LoginButton() {
     displayModal({
       steps: {
         login: {},
-        success: {
-          metadata: {
-            description: "Successfully logged in!",
-          },
-        },
       },
     });
   };
